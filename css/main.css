@@ -180,3 +180,31 @@ body {
     padding: 80px 15px;
     border-radius: 20px;
 }
+
+@media (max-width: 568px) {
+    .hero-image img {
+        height: auto; 
+        max-width: 300px; 
+        width: 100%;
+    }
+}
+
+@media (min-width: 569px) and (max-width:768px) {
+    .hero-image img {
+        height: auto; 
+        max-width: 300px; 
+        width: 100%;
+    }
+
+    .hero-text {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 769px) {
+    .hero-image img {
+        height: auto; 
+        max-width: 400px; 
+        width: 100%;
+    }
+}
