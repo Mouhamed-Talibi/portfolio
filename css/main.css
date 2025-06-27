@@ -173,3 +173,10 @@ body {
     color: var(--neon);
     transform: translateX(2px);
 }
+
+/* hero text */
+.hero-text {
+    background-color: var(--secondary-dark);
+    padding: 80px 15px;
+    border-radius: 20px;
+}
