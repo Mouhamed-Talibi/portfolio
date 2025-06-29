@@ -212,3 +212,43 @@ body {
         width: 100%;
     }
 }
+
+/* fact style */
+.fact span {
+    color: var(--neon);
+}
+
+.fact .specified {
+    text-decoration: underline;
+}
+
+/* main title */
+.main-title i {
+    color: var(--dark-green);
+}
+
+.main-title p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* technologies style */
+.technology {
+    background-color: var(--secondary-dark);
+    color: var(--dark-green);
+    padding: 20px 0;
+    border-radius: 15px;
+}
+
+.technology i {
+    font-size: 70px;
+}
+
+.technology:hover {
+    border: 1px solid var(--neon);
+    transition: .5s all ease-in-out;
+}
+
+.technology:hover i {
+    color: var(--neon);
+    transition: .5s all ease-out;
+}
