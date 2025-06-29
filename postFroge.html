@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mohamed Talibi | Profile</title>
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <!-- font awesom link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <!-- style link -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div id="loader" class="loader-container">
+        <div class="loader"></div>
+        <p class="">Loading, Please Wait..</p>
+    </div>
+
+    <!-- content -->
+    <div id="content">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg shadow">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">mohamed.talibi</a>  
+                <!-- Mobile toggle button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Desktop menu (visible on lg screens and up) -->
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="https://github.com/Mouhamed-Talibi" target="_blank">
+                                <i class="fa-brands fa-square-github fs-2"></i>
+                            </a> 
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="https://www.linkedin.com/in/mouhamedtalibi/" target="_blank">
+                                <i class="fa-brands fa-linkedin fs-2"></i>
+                            </a> 
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="https://www.instagram.com/easy.code_" target="_blank">
+                                <i class="fa-brands fa-instagram fs-2"></i>
+                            </a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Offcanvas Menu (for mobile) -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">mohamed.talibi</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link mobile-nav-link" aria-current="page" href="https://github.com/Mouhamed-Talibi" target="_blank">
+                            <i class="fa-brands fa-square-github fs-2 me-3"></i>
+                            Github
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mobile-nav-link" aria-current="page" href="https://www.linkedin.com/in/mouhamedtalibi/" target="_blank">
+                            <i class="fa-brands fa-linkedin fs-2 me-3"></i>
+                            Linkedin
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mobile-nav-link" aria-current="page" href="https://www.instagram.com/easy.code_" target="_blank">
+                            <i class="fa-brands fa-instagram fs-2 me-3"></i>
+                            Instagram
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container py-5 pb-5">
+            <h2 class="gallery-header text-white mb-4">PostForge <span class="text-muted">| Project Gallery</span></h2>
+            
+            <div class="row g-4">
+                <!-- Image 1 with Zoom -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                        <div class="gallery-img-container">
+                            <a href="projects/PostForge/1.png" data-lightbox="postforge" data-title="Admin Dashboard">
+                                <img src="projects/PostForge/1.png" alt="Dashboard" class="gallery-img">
+                                <div class="zoom-icon">
+                                    <i class="bi bi-zoom-in"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-caption">
+                            <h5 class="text-neon-blue">Guest Page</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image 2 with Zoom -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                        <div class="gallery-img-container">
+                            <a href="projects/PostForge/2.png" data-lightbox="postforge" data-title="Admin Dashboard">
+                                <img src="projects/PostForge/2.png" alt="Dashboard" class="gallery-img">
+                                <div class="zoom-icon">
+                                    <i class="bi bi-zoom-in"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-caption">
+                            <h5 class="text-neon-blue">Login Page</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image 3 with Zoom -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                        <div class="gallery-img-container">
+                            <a href="projects/PostForge/3.png" data-lightbox="postforge" data-title="Admin Dashboard">
+                                <img src="projects/PostForge/3.png" alt="Dashboard" class="gallery-img">
+                                <div class="zoom-icon">
+                                    <i class="bi bi-zoom-in"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-caption">
+                            <h5 class="text-neon-blue">Resgitration Page</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image 4 with Zoom -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                        <div class="gallery-img-container">
+                            <a href="projects/PostForge/4.png" data-lightbox="postforge" data-title="Admin Dashboard">
+                                <img src="projects/PostForge/4.png" alt="Dashboard" class="gallery-img">
+                                <div class="zoom-icon">
+                                    <i class="bi bi-zoom-in"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-caption">
+                            <h5 class="text-neon-blue">Admin Dashboard</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image 5 with Zoom -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                        <div class="gallery-img-container">
+                            <a href="projects/PostForge/5.png" data-lightbox="postforge" data-title="Admin Dashboard">
+                                <img src="projects/PostForge/5.png" alt="Dashboard" class="gallery-img">
+                                <div class="zoom-icon">
+                                    <i class="bi bi-zoom-in"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-caption">
+                            <h5 class="text-neon-blue">Posts Management</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image 6 with Zoom -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                        <div class="gallery-img-container">
+                            <a href="projects/PostForge/6.png" data-lightbox="postforge" data-title="Admin Dashboard">
+                                <img src="projects/PostForge/6.png" alt="Dashboard" class="gallery-img">
+                                <div class="zoom-icon">
+                                    <i class="bi bi-zoom-in"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-caption">
+                            <h5 class="text-neon-blue">Creators Management</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image 7 with Zoom -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                        <div class="gallery-img-container">
+                            <a href="projects/PostForge/7.png" data-lightbox="postforge" data-title="Admin Dashboard">
+                                <img src="projects/PostForge/7.png" alt="Dashboard" class="gallery-img">
+                                <div class="zoom-icon">
+                                    <i class="bi bi-zoom-in"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-caption">
+                            <h5 class="text-neon-blue">Add Category</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image 8 with Zoom -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                        <div class="gallery-img-container">
+                            <a href="projects/PostForge/8.png" data-lightbox="postforge" data-title="Admin Dashboard">
+                                <img src="projects/PostForge/8.png" alt="Dashboard" class="gallery-img">
+                                <div class="zoom-icon">
+                                    <i class="bi bi-zoom-in"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-caption">
+                            <h5 class="text-neon-blue">Posts Page ( Logged-in Users )</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image 9 with Zoom -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                        <div class="gallery-img-container">
+                            <a href="projects/PostForge/9.png" data-lightbox="postforge" data-title="Admin Dashboard">
+                                <img src="projects/PostForge/9.png" alt="Dashboard" class="gallery-img">
+                                <div class="zoom-icon">
+                                    <i class="bi bi-zoom-in"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-caption">
+                            <h5 class="text-neon-blue">Search Results</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image 10 with Zoom -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                        <div class="gallery-img-container">
+                            <a href="projects/PostForge/10.png" data-lightbox="postforge" data-title="Admin Dashboard">
+                                <img src="projects/PostForge/10.png" alt="Dashboard" class="gallery-img">
+                                <div class="zoom-icon">
+                                    <i class="bi bi-zoom-in"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-caption">
+                            <h5 class="text-neon-blue">Post Creation</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <!-- loaders js -->
+    <script src="js/loader.js"></script>
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</body>

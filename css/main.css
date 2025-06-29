@@ -264,6 +264,11 @@ body {
     flex-direction: column;
 }
 
+.project:hover {
+    transform: translateY(-4px);
+    transition: .2s all ease;
+}
+
 .projects .main-title i {
     font-size: 40px;
     color: var(--neon);
@@ -301,4 +306,104 @@ body {
 .project-technologies .tech {
     color: var(--neon);
     text-decoration: underline;
+}
+
+/* contact style */
+.contact .main-title i {
+    font-size: 45px;
+}
+
+.contact .contact-links a i{
+    background-color: var(--neon);
+    padding: 8px;
+    color: var(--Background);
+    border-radius: 50px;
+}
+
+.contact .contact-links a i:hover {
+    background-color: #0aa16f;
+    color: var(--text);
+    transition: .4s all ease;
+}
+
+@media screen and (max-width: 568px) {
+    .contact-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+/* fact styles */
+.fact.span {
+    color: var(--neon);
+}
+
+.fact .specified {
+    text-decoration: underline;
+}
+
+/* gallery syle */
+.gallery-header {
+    margin-bottom: 3rem;
+}
+
+.gallery-card {
+    background: var(--secondary-dark);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    border: 1px solid #333;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 245, 255, 0.1);
+}
+
+.gallery-img-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.gallery-img-container:hover .gallery-img {
+    transform: scale(1.1);
+}
+
+.gallery-caption {
+    padding: 1rem;
+    border-top: 1px solid #333;
+}
+
+.zoom-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.gallery-img-container:hover .zoom-icon {
+    opacity: 1;
+}
+
+.zoom-icon i {
+    color: white;
+    font-size: 14px;
 }
